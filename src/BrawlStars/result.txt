@@ -1,0 +1,86 @@
+1. Ver brawlers
+2. Crear brawler legendario
+3. Crear brawler épico
+4. Combatir
+5. Salir
+
+OPCION: 1
+
+Todavía no hay brawlers creados...
+
+1. Ver brawlers
+2. Crear brawler legendario
+3. Crear brawler épico
+4. Combatir
+5. Salir
+
+OPCION: 2
+
+Nombre: Leon
+Vida: 4000
+Daño: 2000
+
+1. Ver brawlers
+2. Crear brawler legendario
+3. Crear brawler épico
+4. Combatir
+5. Salir
+
+OPCION: 3
+
+Nombre: Bo
+Vida: 9000
+Suministros: 1000
+
+1. Ver brawlers
+2. Crear brawler legendario
+3. Crear brawler épico
+4. Combatir
+5. Salir
+
+OPCION: 1
+
+[Leon:4000]
+[Bo:9000]
+
+1. Ver brawlers
+2. Crear brawler legendario
+3. Crear brawler épico
+4. Combatir
+5. Salir
+
+OPCION: 4
+
+Nombre del brawler 1: Mortis
+Nombre del brawler 2: Bo
+Uno de los brawlers no se ha encontrado...
+2
+1. Ver brawlers
+2. Crear brawler legendario
+3. Crear brawler épico
+4. Combatir
+5. Salir
+
+OPCION: 4
+
+Nombre del brawler 1: Bo
+Nombre del brawler 2: Leon
+[Bo:9000]
+[Leon:4000]
+
+[Bo:10000] Increase health to 10000
+[Leon:4000]
+
+[Leon:4000] Apply -2000 damage to Bo
+[Bo:8000]
+
+1. Ver brawlers
+2. Crear brawler legendario
+3. Crear brawler épico
+4. Combatir
+5. Salir
+
+OPCION: 5
+
+
+Process finished with exit code 0
