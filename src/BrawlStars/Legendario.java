@@ -10,7 +10,13 @@ public class Legendario extends Brawler {
     }
 
 
-    public void atacar(){
+    public void accionEspecial(Brawler enemigo){
+
+        enemigo.setVida(enemigo.getVida()-this.daño);
+        System.out.println("[" + getNombre() + ":" + getVida() + "] Apply -" + this.daño + " damage to " + enemigo.getNombre());
+        System.out.println("[" + enemigo.getNombre() + ":" + enemigo.getVida() + "]\n");
+    }
+
 
     }
-}
+

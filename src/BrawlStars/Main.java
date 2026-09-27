@@ -115,13 +115,16 @@ public class    Main {
         if (luchador1 == null || luchador2 == null) {
             System.out.println("Uno de los brawlers no se ha encontrado...");
         } else {
+
             System.out.println("["+luchador1.getNombre()+":"+luchador1.getVida()+"]");
-
             System.out.println("["+luchador2.getNombre()+":"+luchador2.getVida()+"]");
+
+
+            luchador1.accionEspecial(luchador2);
+            luchador2.accionEspecial(luchador1);
+
         }
-
-
-
+;
 
 
 

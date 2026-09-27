@@ -10,8 +10,11 @@ public class Epico extends Brawler{
     }
 
 
-    public void usarsuministro(){
+    public void accionEspecial(Brawler enemigo){
        setVida(getVida()+ this.suministro);
+        System.out.println("[" + getNombre() + ":" + getVida() + "] Increase health to " + getVida());
+        System.out.println("[" + enemigo.getNombre() + ":" + enemigo.getVida() + "]\n");
+
 
     }
 }
