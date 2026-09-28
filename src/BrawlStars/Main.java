@@ -29,6 +29,7 @@ public class Main {
                case 2: CrearLegendario(); break;
                case 3: CrearEpico(); break;
                case 4: Combatir(); break;
+
            }
 
        } while ( eleccion != 5);
