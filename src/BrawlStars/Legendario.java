@@ -21,5 +21,3 @@ public class Legendario extends Brawler {
         System.out.println("[" + enemigo.getNombre() + ":" + enemigo.getVida() + "]\n");
     }
 }
-
-//
