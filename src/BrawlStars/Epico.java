@@ -1,22 +1,24 @@
 package BrawlStars;
 
+// 1. HERENCIA: Usamos 'extends' para que el Épico adquiera el nombre, la vida y los métodos del Brawler base genérico.
 public class Epico extends Brawler{
 
-    // Atributo exclusivo de los personajes Épicos
+    // 2. ATRIBUTO EXCLUSIVO: Solo los épicos tienen una mochila de suministros.
     private int suministro;
 
+    // 3. CONSTRUCTOR HIJO: Pide los 3 datos al crearse.
     public Epico(String nombre, int vida, int suministro) {
-        // Llamamos al constructor del padre (Brawler) para inicializar nombre y vida
+        // 4. SUPER: Le manda el nombre y la vida al constructor del Padre para que él se encargue de eso.
         super(nombre, vida);
         this.suministro = suministro;
     }
 
-    // Sobrescribimos el método genérico del padre (Polimorfismo) para hacer que el Épico se cure
+    // 5. SOBRESCRITURA (POLIMORFISMO): Cambiamos la función vacía del padre por la versión exclusiva del Épico (Curarse).
     public void accionEspecial(Brawler enemigo){
-        // Modificamos nuestra vida sumando la vida actual más los suministros de nuestra mochila
+        // 6. CURARSE: Cambiamos nuestra vida sumando la actual + nuestros suministros.
         setVida(getVida() + this.suministro);
 
-        // Imprimimos la narración de la cura por pantalla
+        // 7. NARRACIÓN: Imprimimos por consola el resultado de nuestra acción especial.
         System.out.println("[" + getNombre() + ":" + getVida() + "] Increase health to " + getVida());
         System.out.println("[" + enemigo.getNombre() + ":" + enemigo.getVida() + "]\n");
     }
