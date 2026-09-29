@@ -20,4 +20,5 @@ public class User {
     this.nombreUsuario= nombreUsuario;
     }
 
+
 }

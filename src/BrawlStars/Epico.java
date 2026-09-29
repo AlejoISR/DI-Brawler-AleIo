@@ -6,6 +6,7 @@ public class Epico extends Brawler{
     // 2. ATRIBUTO EXCLUSIVO: Solo los épicos tienen una mochila de suministros.
     private int suministro;
 
+
     // 3. CONSTRUCTOR HIJO: Pide los 3 datos al crearse.
     public Epico(String nombre, int vida, int suministro) {
         // 4. SUPER: Le manda el nombre y la vida al constructor del Padre para que él se encargue de eso.
